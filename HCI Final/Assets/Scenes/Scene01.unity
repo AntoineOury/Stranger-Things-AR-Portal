@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 150047902}
   m_Layer: 0
   m_Name: CapsuleTrigger
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,6 +292,7 @@ MonoBehaviour:
   m_CameraToFace: {fileID: 331264287}
   m_ObjectPrefabs:
   - {fileID: 5994430731940559853, guid: 9ca576ad27a6d444391dc514fe885d5a, type: 3}
+  - {fileID: 6882336599371266142, guid: 3c923822cead78d4682655e51da8287b, type: 3}
   m_SpawnVisualizationPrefab: {fileID: 0}
   m_SpawnOptionIndex: 0
   m_OnlySpawnInView: 1
@@ -347,6 +348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Origin (AR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512387470528047719, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2512387470528047737, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}

@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class PortalTrigger : MonoBehaviour
 {
+    public GameObject testCube;
    
-    // void OnTriggerEnter()
-    // {
-    //   
-    // }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            testCube.gameObject.SetActive(true);
+            
+        }
+    }
 }
